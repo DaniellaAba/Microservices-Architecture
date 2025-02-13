@@ -1,26 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/daniellaarnan-nkansah/Desktop/Microservices/Mango/Mango.Services.CouponApi/Mango.Services.CouponApi.csproj": {}
+    "C:\\Users\\owura\\OneDrive\\Desktop\\Microservice\\Mango.Services.CouponApi\\Mango.Services.CouponApi.csproj": {}
   },
   "projects": {
-    "/Users/daniellaarnan-nkansah/Desktop/Microservices/Mango/Mango.Services.CouponApi/Mango.Services.CouponApi.csproj": {
+    "C:\\Users\\owura\\OneDrive\\Desktop\\Microservice\\Mango.Services.CouponApi\\Mango.Services.CouponApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daniellaarnan-nkansah/Desktop/Microservices/Mango/Mango.Services.CouponApi/Mango.Services.CouponApi.csproj",
+        "projectUniqueName": "C:\\Users\\owura\\OneDrive\\Desktop\\Microservice\\Mango.Services.CouponApi\\Mango.Services.CouponApi.csproj",
         "projectName": "Mango.Services.CouponApi",
-        "projectPath": "/Users/daniellaarnan-nkansah/Desktop/Microservices/Mango/Mango.Services.CouponApi/Mango.Services.CouponApi.csproj",
-        "packagesPath": "/Users/daniellaarnan-nkansah/.nuget/packages/",
-        "outputPath": "/Users/daniellaarnan-nkansah/Desktop/Microservices/Mango/Mango.Services.CouponApi/obj/",
+        "projectPath": "C:\\Users\\owura\\OneDrive\\Desktop\\Microservice\\Mango.Services.CouponApi\\Mango.Services.CouponApi.csproj",
+        "packagesPath": "C:\\Users\\owura\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\owura\\OneDrive\\Desktop\\Microservice\\Mango.Services.CouponApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/daniellaarnan-nkansah/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\owura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,7 +38,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -42,10 +53,6 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -97,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
