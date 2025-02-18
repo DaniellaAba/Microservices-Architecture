@@ -1,21 +1,35 @@
 ﻿<Properties StartupConfiguration="{83236853-2E14-426D-BAB1-AA2ACE0B4608}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.CouponApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mango.Services.CouponApi/Program.cs">
+    <Files>
+      <File FileName="Mango.Services.CouponApi/Properties/launchSettings.json" Line="26" Column="48" />
+      <File FileName="Mango.Services.CouponApi/Models/Coupon.cs" Line="13" Column="1" />
+      <File FileName="Mango.Services.CouponApi/Models/Dto/CouponDto.cs" Line="9" Column="43" />
+      <File FileName="Mango.Services.CouponApi/Data/AppDbContext.cs" Line="12" Column="27" />
+      <File FileName="Mango.Services.CouponApi/Program.cs" Line="13" Column="62" />
+      <File FileName="Mango.Services.CouponApi/appsettings.json" Line="10" Column="23" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mango">
-            <Node name="Services" expanded="True" selected="True" />
+            <Node name="Services" expanded="True">
+              <Node name="Mango.Services.CouponApi" expanded="True">
+                <Node name="Data" expanded="True" />
+                <Node name="Models" expanded="True" />
+                <Node name="Program.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Mango PreferredExecutionTarget="/Applications/Google Chrome.app" FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Services.Mango.Services.CouponApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
