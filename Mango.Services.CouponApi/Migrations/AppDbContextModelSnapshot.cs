@@ -30,8 +30,6 @@ namespace Mango.Services.CouponApi.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CouponId"));
 
                     b.Property<string>("CouponCode")
-
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("DiscountAmount")

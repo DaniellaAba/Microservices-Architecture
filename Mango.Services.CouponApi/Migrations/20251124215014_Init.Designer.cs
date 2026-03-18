@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Mango.Services.CouponApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250205155044_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20251124215014_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,7 +33,6 @@ namespace Mango.Services.CouponApi.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CouponId"));
 
                     b.Property<string>("CouponCode")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<double>("DiscountAmount")
